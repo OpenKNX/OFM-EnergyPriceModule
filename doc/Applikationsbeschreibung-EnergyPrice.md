@@ -65,11 +65,9 @@ Weitere Informationen: https://www.energy-charts.info
 
 Wählt den Datenanbieter für diesen Kanal.
 
-| Wert | Bedeutung |
-|------|-----------|
-| Deaktiviert | Kanal ist inaktiv |
-| aWATTar | EPEX-SPOT-Preise via aWATTar API |
-| Energy Charts | EPEX-SPOT-Preise via Fraunhofer ISE Energy Charts API |
+* **Deaktiviert** - Kanal ist inaktiv
+* **aWATTar** - EPEX-SPOT-Preise via aWATTar API
+* **Energy Charts** - EPEX-SPOT-Preise via Fraunhofer ISE Energy Charts API
 
 <!-- DOCEND -->
 
@@ -78,10 +76,8 @@ Wählt den Datenanbieter für diesen Kanal.
 
 Nur relevant bei aWATTar: Wählt das Preisgebiet.
 
-| Wert | Bedeutung |
-|------|-----------|
-| Deutschland | api.awattar.de |
-| Österreich | api.awattar.at |
+* **Deutschland** - api.awattar.de
+* **Österreich** - api.awattar.at
 
 <!-- DOCEND -->
 
@@ -90,18 +86,16 @@ Nur relevant bei aWATTar: Wählt das Preisgebiet.
 
 Nur relevant bei Energy Charts: Wählt die europäische Gebotszone (Bidding Zone).
 
-| Wert | Gebotszone |
-|------|------------|
-| Deutschland/Luxemburg (DE-LU) | EPEX DE-LU |
-| Österreich (AT) | EPEX AT |
-| Schweiz (CH) | EPEX CH |
-| Belgien (BE) | EPEX BE |
-| Frankreich (FR) | EPEX FR |
-| Niederlande (NL) | EPEX NL |
-| Dänemark West (DK1) | Nord Pool DK1 |
-| Dänemark Ost (DK2) | Nord Pool DK2 |
-| Norwegen 1–5 (NO1–NO5) | Nord Pool NO |
-| Schweden 1–4 (SE1–SE4) | Nord Pool SE |
+* **Deutschland/Luxemburg (DE-LU)** - EPEX DE-LU
+* **Österreich (AT)** - EPEX AT
+* **Schweiz (CH)** - EPEX CH
+* **Belgien (BE)** - EPEX BE
+* **Frankreich (FR)** - EPEX FR
+* **Niederlande (NL)** - EPEX NL
+* **Dänemark West (DK1)** - Nord Pool DK1
+* **Dänemark Ost (DK2)** - Nord Pool DK2
+* **Norwegen 1–5 (NO1–NO5)** - Nord Pool NO
+* **Schweden 1–4 (SE1–SE4)** - Nord Pool SE
 
 <!-- DOCEND -->
 
@@ -110,12 +104,10 @@ Nur relevant bei Energy Charts: Wählt die europäische Gebotszone (Bidding Zone
 
 Legt fest, in welchem Intervall die Preise neu abgerufen werden.
 
-| Wert | Intervall |
-|------|-----------|
-| Keine | Nur manuell über KO |
-| 30 Minuten | Alle 30 Minuten |
-| Jede Stunde | Stündlich |
-| Täglich | Einmal täglich |
+* **Keine** - Nur manuell über KO
+* **30 Minuten** - Alle 30 Minuten
+* **Jede Stunde** - Stündlich
+* **Täglich** - Einmal täglich
 
 Empfohlen: **Jede Stunde** – aWATTar liefert ohnehin nur stündliche Werte.
 
